@@ -6,6 +6,12 @@ This project includes verbatim Guided Review prompt text and its associated
 structured-output schema from [Plannotator](https://github.com/backnotprop/plannotator),
 copied from revision `d5ae439f7a06d0c461e89db05b30e674ea46bd65`.
 
+Source path: `packages/server/guide/guide-review.ts`
+
+The copied assets are `GUIDE_REVIEW_PROMPT`, `GUIDE_SCHEMA_JSON`, and the
+supported inline-patch changeset text used by `buildGuideUserMessage`. They are
+stored in `src/shared/prompt-assets.ts`; tests lock their exact output hashes.
+
 The following notice and license apply to those copied Plannotator materials only.
 They do not license the original code or other content in this repository.
 
